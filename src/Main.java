@@ -1,6 +1,15 @@
-// Ini adalah file Main.java
+// Main.java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Halo, ini program Java pertama saya di Git!");
+        // Membuat dua variabel angka
+        int angkaPertama = 10;
+        int angkaKedua = 25;
+
+        // Menjumlahkan kedua angka
+        int hasil = angkaPertama + angkaKedua;
+
+        // Menampilkan hasil ke konsol
+        System.out.println("Program Java Sederhana");
+        System.out.println("Hasil dari " + angkaPertama + " + " + angkaKedua + " adalah: " + hasil);
     }
 }
